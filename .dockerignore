@@ -1,0 +1,11 @@
+# Ignore everything
+./*
+
+# Selectively allow files
+!Gemfile
+!Gemfile.lock
+!/.bundle
+!/app
+!/bin
+!/config
+!config.ru
