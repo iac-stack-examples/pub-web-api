@@ -69,13 +69,15 @@ GEM
     method_source (0.9.2)
     mimemagic (0.3.3)
     mini_mime (1.0.1)
-    mini_portile2 (2.4.0)
+    mini_portile2 (2.6.1)
     minitest (5.11.3)
     msgpack (1.2.10)
     nio4r (2.3.1)
-    nokogiri (1.10.3)
-      mini_portile2 (~> 2.4.0)
+    nokogiri (1.12.5)
+      mini_portile2 (~> 2.6.1)
+      racc (~> 1.4)
     puma (3.12.1)
+    racc (1.5.2)
     rack (2.0.7)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
@@ -120,7 +122,6 @@ GEM
       actionpack (>= 4.0)
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
-    sqlite3 (1.4.1)
     thor (0.20.3)
     thread_safe (0.3.6)
     tzinfo (1.2.5)
@@ -140,7 +141,6 @@ DEPENDENCIES
   rails (~> 5.2.3)
   spring
   spring-watcher-listen (~> 2.0.0)
-  sqlite3
 
 RUBY VERSION
    ruby 2.6.3p62
